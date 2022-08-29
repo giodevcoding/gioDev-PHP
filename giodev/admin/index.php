@@ -10,7 +10,7 @@ if(isset($_POST['admin_username']) || isset($_POST['admin_password'])){
     $username = $_POST['admin_username'];
     $password = $_POST['admin_password'];
 
-    if($username == 'giovannicpanzettaiii' && $password == 'cheesenoodlemuffinpanda'){
+    if($username == 'temp_username' && $password == 'temp_password'){
         $_SESSION['giodev_admin'] = true;
     }
     unset($_POST['admin_username']);
