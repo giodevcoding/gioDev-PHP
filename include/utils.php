@@ -41,7 +41,7 @@
         return $_SERVER['DOCUMENT_ROOT'];
     }
 
-    function connectToDB($ip = "localhost", $dbname = "giodevDB", $user = "giodev", $pass = "Gyo135795816b"){
+    function connectToDB($ip = "localhost", $dbname = "giodevDB", $user = "giodev", $pass = "temp_password"){
         try{
             $db = new PDO("mysql:host=$ip", $user, $pass);
             $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
