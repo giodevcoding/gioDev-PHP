@@ -28,7 +28,7 @@
     if(strpos($_SERVER["HTTP_HOST"], "localhost") !== false){
         $db = connectToDB();
     }else{
-        $db = connectToDB("db720651841.db.1and1.com", "db720651841", "dbo720651841", "Gyo135795816b!");
+        $db = connectToDB("localhost", "giodevDB", "temp_username", "temp_password");
     }
 
     $error_message = "";
